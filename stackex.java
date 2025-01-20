@@ -13,19 +13,20 @@ public class stackex {
     
 }
 */
-public class stackex {
+
+  class Stackex {
     private int[] items;
     private int top;
     private int capacity;
 
-    public stackex(int size) {
+    public Stackex(int size) {
         items = new int[size];
         capacity = size;
         top = -1;
     }
 
     public void push(int item) {
-        if (isFull()) {
+        if (top == capacity - 1) {
             throw new RuntimeException("Stack is full");
         }
         items[++top] = item;
@@ -33,29 +34,22 @@ public class stackex {
     }
 
     public int pop() {
-        if (isEmpty()) {
+        if (top == -1) {
             throw new RuntimeException("Stack is empty");
         }
         return items[top--];
     }
 
     public int peek() {
-        if (isEmpty()) {
+        if (top == -1) {
             throw new RuntimeException("Stack is empty");
         }
         return items[top];
     }
 
-    public boolean isEmpty() {
-        return top == -1;
-    }
-
-    public boolean isFull() {
-        return top == capacity - 1;
-    }
 
     public int search(int target) {
-        if (isEmpty()) {
+        if (top == -1) {
             throw new RuntimeException("Stack is empty");
         }
         for (int i = top; i >= 0; i--) {
@@ -65,9 +59,11 @@ public class stackex {
         }
         return -1; // Element not found
     }
+ }
 
+ class stackhex{
     public static void main(String[] args) {
-        stackex stack = new stackex(5);
+        Stackex stack = new Stackex(5); 
 
         stack.push(10);
         stack.push(20);
@@ -80,6 +76,7 @@ public class stackex {
 
         System.out.println("Searching for 20: Position " + stack.search(20));
         System.out.println("Searching for 50: Position " + stack.search(50));
+      
     }
 }
 
