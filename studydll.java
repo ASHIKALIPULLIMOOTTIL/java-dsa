@@ -47,7 +47,7 @@ public class studydll {
         dll.create(10);
         dll.create(20);
         dll.create(30);
-        dll.create(30);
+        dll.create(40);
         dll.print();
     }
 }
