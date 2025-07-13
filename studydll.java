@@ -8,7 +8,7 @@ class Node {
         this.prev = null;
         this.next = null;
     }
-}
+}    
 class doublyll{
     private Node head =null;
     private Node temp;
