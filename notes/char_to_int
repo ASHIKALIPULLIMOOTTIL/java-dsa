@@ -1,0 +1,7 @@
+int num = Character.getNumericValue(val);
+      or
+      
+int num = val - '0';
+
+
+---lets you convert '5' → 5, '9' → 9, etc.,
