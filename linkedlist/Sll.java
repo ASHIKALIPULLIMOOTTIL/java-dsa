@@ -50,7 +50,7 @@ class LinkedList {
         } else {
             Node temp = head;
             int count = 1;
-            while (temp != null && count < position - 1) {
+            while (temp != null && count < position - 1) {   //This condition is used to move the pointer (temp) to the node just BEFORE the given position.
                 temp = temp.next;
                 count++;
             }
@@ -82,7 +82,7 @@ class LinkedList {
             head = null;
         } else {
             Node temp = head;
-            while (temp.next.next != null) {
+            while (temp.next.next != null) {  //stop at the second-last node
                 temp = temp.next;
             }
             System.out.println("Deleted node data: " + temp.next.data);
