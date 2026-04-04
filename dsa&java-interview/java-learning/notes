@@ -1,0 +1,43 @@
+🔹 1. Human languages supported by Java (Localization)
+
+Java supports many human languages using built-in features like Locale and ResourceBundle.
+
+Examples of supported languages:
+English
+Hindi
+Malayalam
+Arabic
+French
+German
+Chinese
+Japanese
+
+👉 Java uses:
+
+Locale → to represent language & region
+ResourceBundle → to load translated text
+
+✔ This is used in apps that show different languages to users.
+
+🔹 2. Programming languages that run on Java (JVM languages)
+
+Java runs on the JVM (Java Virtual Machine), and many other languages can also run on it.
+
+Popular JVM-supported languages:
+Java (main language)
+Kotlin → used for Android development
+Scala → used in big data & functional programming
+Groovy → scripting language
+Clojure → functional language
+JRuby → Ruby on JVM
+Jython → Python on JVM
+🔹 Why multiple languages?
+
+👉 Because JVM allows:
+
+Compile different languages → convert to bytecode
+JVM runs that bytecode
+
+✔ So Java is not just a language
+✔ It’s a platform
+************************************************************************************
