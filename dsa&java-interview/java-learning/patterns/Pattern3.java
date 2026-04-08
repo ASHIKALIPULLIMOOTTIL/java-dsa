@@ -6,7 +6,7 @@ public class Pattern3 {
                 System.out.print("  ");
             }
             for(int j=1;j<=m;j++){
-                System.out.print("*"+" ");
+                System.out.print("* ");
             }
             System.out.println();
             m--;

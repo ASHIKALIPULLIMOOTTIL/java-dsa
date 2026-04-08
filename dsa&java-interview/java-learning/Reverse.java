@@ -1,5 +1,5 @@
 public class Reverse {
-    public static void main(String[] args) {
+    public static void main(String ...args) {
         int n = 16261;
         int temp=n;
         int r, rev = 0;
