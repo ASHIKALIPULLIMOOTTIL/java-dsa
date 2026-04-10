@@ -41,6 +41,7 @@ class Dog implements Animal, Pet {
     // Extra method
     void display() {
         System.out.println("Dog class method");
+        System.out.println("Max Age: " + Animal.MAX_AGE);
     }
 }
 
