@@ -36,6 +36,9 @@ public class Synchronized {
 
         // final result
         System.out.println("Final Count: " + c.count);
+        
+        boolean a=Character.isAlphabetic('5');
+        System.out.println(a);
     }
 }
 /*
