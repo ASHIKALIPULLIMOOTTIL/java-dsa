@@ -1,7 +1,7 @@
 package Collections;
 import java.util.*;
 
-public class Example {
+public class Array_List {
     public static void main(String[] args) {
 
         Collection<String> c1 = new ArrayList<>();
@@ -12,11 +12,8 @@ public class Example {
         c1.add("E");
         c1.add("F");
 
-        Collection<String> c2 = new ArrayList<>();
-        c2.add("E");
-        c2.add("F");
-        c2.add("G");
-        c2.add("H");
+        Collection<String> c2 = new ArrayList<>(List.of("E","F","G","H"));
+        
 
         System.out.println("C1: " + c1);
         System.out.println("C2: " + c2);
@@ -33,7 +30,7 @@ public class Example {
         System.out.println("After removeAll: " + c1);
 
         // Reset C1
-        c1 = new ArrayList<>(Arrays.asList("A","B","C","D","E","F"));
+        c1 = new ArrayList<>(List.of("A","B","C","D","E","F"));
 
         // 3️⃣ retainAll
         c1.retainAll(c2);
