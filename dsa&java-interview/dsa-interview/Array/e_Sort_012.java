@@ -2,7 +2,7 @@ package Array;
 
 //import java.util.*;
 
-public class Sort_012 {
+public class e_Sort_012 {
      //Dutch National Flag algorithm (sorting an array of 0s, 1s, and 2s in one pass). 
     public static void sortArray(int[] arr, int n) {
         int low = 0, mid = 0, high = n - 1;

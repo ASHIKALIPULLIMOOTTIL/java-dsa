@@ -1,7 +1,7 @@
 package Array;
 import java.util.*;
 
-public class LeftRotate {
+public class b_LeftRotate {
     public static void main(String[] args) {
         int a[] = {1,2,3,4,5,6};
         int l = a.length;
@@ -32,6 +32,7 @@ public class LeftRotate {
         for(int i = 0; i < l; i++){
             System.out.print(a[i] + " ");
         }
+        sc.close();
     }
 }
 

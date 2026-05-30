@@ -28,7 +28,7 @@ public class Longestsubarray {
 
 import java.util.*;
 
-public class Longestsubarray{
+public class c_Longestsubarray{
     public static void main(String[] args) {
         int a[]={2,2,5,0,0,3,9,9,7,7};
         int t=3;

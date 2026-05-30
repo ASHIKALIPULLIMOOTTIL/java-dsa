@@ -19,7 +19,7 @@ public class TwoSum {
 
 import java.util.HashMap;
 
-public class TwoSum {
+public class d_TwoSum {
     public static void main(String[] args) {
         int a[]={1,5,3,7,9,5};
         int n=a.length;

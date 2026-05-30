@@ -1,6 +1,6 @@
 package Array;
 
-public class SecondLarge {
+public class a_SecondLarge {
     public static void main(String[] args) {
         
     int arr[]={1,7,2,9,4,0,8,9};
@@ -14,7 +14,7 @@ public class SecondLarge {
     }
 
     for(int i=0;i<arr.length;i++){
-        if(arr[i]!=l1 && arr[i]>l2){
+        if(arr[i]<l1 && arr[i]>l2){
             l2=arr[i];
         }
     }
