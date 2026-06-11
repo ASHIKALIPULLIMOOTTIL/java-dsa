@@ -1,6 +1,6 @@
 package BinarySearch;
 
-class Binary_Search {
+class a_Binary_Search {
     public static int binarySearch(int arr[], int target) {
         int left = 0, right = arr.length - 1;
 

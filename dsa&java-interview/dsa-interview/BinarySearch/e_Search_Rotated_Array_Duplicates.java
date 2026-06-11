@@ -1,6 +1,6 @@
 package BinarySearch;
 
-public class Search_Rotated_Array_Duplicates {
+public class e_Search_Rotated_Array_Duplicates {
 
     public static boolean search(int arr[], int target) {
 

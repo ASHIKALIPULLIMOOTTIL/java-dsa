@@ -1,6 +1,6 @@
 package BinarySearch;
 
-public class Single_Element_Sorted_Array {
+public class g_Single_Element_Sorted_Array {
 
     public static int singleNonDuplicate(int arr[]) {
 

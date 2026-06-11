@@ -1,6 +1,6 @@
 package BinarySearch;
 
-public class Search_Rotated_Array1 {
+public class d_Search_Rotated_Array1 {
 
     public static int findPivot(int arr[]) {
 

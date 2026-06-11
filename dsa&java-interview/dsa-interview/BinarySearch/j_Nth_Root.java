@@ -1,6 +1,6 @@
 package BinarySearch;
 
-public class Nth_Root{
+public class j_Nth_Root{
 
     public static int findrt(int n,int p) {
 

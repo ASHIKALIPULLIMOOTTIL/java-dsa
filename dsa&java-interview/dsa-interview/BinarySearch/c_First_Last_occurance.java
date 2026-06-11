@@ -1,6 +1,6 @@
 package BinarySearch;
 
-public class First_Last_occurance {
+public class c_First_Last_occurance {
 
     public static int First(int arr[], int n, int t) {
         int left = 0, right = n - 1;

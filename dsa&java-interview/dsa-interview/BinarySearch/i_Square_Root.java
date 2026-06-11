@@ -34,7 +34,7 @@ public class Square_Root_BruteForce {
 
 package BinarySearch;
 
-public class Square_Root{
+public class i_Square_Root{
 
     public static int findSqrt(int n) {
 

@@ -39,7 +39,7 @@ public class Min_Rotated_Array1 {
 
 package BinarySearch;
 
-public class Min_Rotated_Array {
+public class f_Min_Rotated_Array {
 
     public static int findMin(int arr[]) {
 

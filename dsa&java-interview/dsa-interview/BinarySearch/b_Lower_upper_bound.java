@@ -1,6 +1,6 @@
 package BinarySearch;
 
-public class Lower_upper_bound {
+public class b_Lower_upper_bound {
     
     public static int lowerBound(int[] arr, int n, int x) {
         int low = 0, high = n - 1;

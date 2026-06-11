@@ -1,6 +1,6 @@
 package BinarySearch;
 
-public class Peak_Element_Array {
+public class h_Peak_Element_Array {
 
     public static int peakElement(int arr[]) {
 
