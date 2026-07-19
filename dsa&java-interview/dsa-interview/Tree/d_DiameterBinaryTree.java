@@ -8,7 +8,7 @@ class Node {
     }
 }
 
-public class DiameterBinaryTree {
+public class d_DiameterBinaryTree {
 
     // Variable to store maximum diameter(global)
     static int max = 0;

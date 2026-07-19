@@ -8,7 +8,7 @@ class Node {
     }
 }
 
-public class IdenticalTrees {
+public class f_IdenticalTrees {
 
     static boolean isIdentical(Node root1, Node root2) {
 

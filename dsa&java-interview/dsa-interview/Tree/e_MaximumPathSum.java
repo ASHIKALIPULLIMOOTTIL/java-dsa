@@ -20,7 +20,7 @@ max(left, right) + root
 Because parent cannot take both branches.
 */
 
-public class MaximumPathSum {
+public class e_MaximumPathSum {
 
     static int maxSum = Integer.MIN_VALUE;
      //tip: we can update root to leaf sum to calculate node to node max sum
@@ -30,17 +30,16 @@ public class MaximumPathSum {
             return 0;
 
         // Get left and right max path
-        int left = Math.max(0, findMaxPath(root.left));  //max to ignore negative node.
-        int right = Math.max(0, findMaxPath(root.right));
+        int leftsum = Math.max(0, findMaxPath(root.left));  //max to ignore negative node.
+        int rightsum = Math.max(0, findMaxPath(root.right));
 
         // Current path sum through root
-        int currentsum= left + right + root.data;
-
+        int currentsum= leftsum + rightsum + root.data;
         // Update global maximum
         maxSum = Math.max(maxSum, currentsum);
 
         // Return single path to parent
-        return Math.max(left, right) + root.data;
+        return Math.max(leftsum, rightsum) + root.data;
     }
 
     public static void main(String[] args) {
@@ -61,8 +60,9 @@ public class MaximumPathSum {
         root.right.left = new Node(20);
         root.right.right = new Node(1);
 
-        findMaxPath(root);
+       int singlePath = findMaxPath(root);
 
-        System.out.println("Maximum Path Sum = " + maxSum);
+        System.out.println("Max root to leaf Path sum = " + singlePath);
+        System.out.println("Max node to node Path Sum = " + maxSum);
     }
 }

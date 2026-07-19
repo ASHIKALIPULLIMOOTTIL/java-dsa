@@ -207,7 +207,7 @@ void I_postOrder2(Node root) {
 }
 
 // Main class
-public class binarytree_All {
+public class a_binarytree_All {
     public static void main(String[] args) {
         BinaryTree bt = new BinaryTree();
         Node root;

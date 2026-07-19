@@ -8,7 +8,7 @@ class Node {
     }
 }
 
-public class DeleteBST {
+public class j_DeleteBST {
 
     // Insert
     static Node insert(Node root, int value) {

@@ -8,7 +8,7 @@ class Node {
     }
 }
 
-public class BST {
+public class i_BST {
 
   static  Node root=null;
 

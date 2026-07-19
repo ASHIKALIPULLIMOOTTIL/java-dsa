@@ -26,13 +26,11 @@ public class c_FrogJump {
             right = solve(ind - 2, height, dp)
                     + Math.abs(height[ind] - height[ind - 2]);
         }
-
         // Store minimum
         dp[ind] = Math.min(left, right);
 
         return dp[ind];
     }
-
     public static void main(String[] args) {
 
         int[] height = {30, 10, 60, 10, 60, 50};

@@ -8,7 +8,7 @@ class Node {
     }
 }
 
-public class Check_BalancedBinaryTree {
+public class c_Check_BalancedBinaryTree {
 
     // Returns height if balanced
     // Returns -1 if not balanced

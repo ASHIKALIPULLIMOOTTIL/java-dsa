@@ -92,7 +92,7 @@ class BinaryTree {
 }
 
 // Main class
-public class all_In1_Traversal {
+public class b_all_In1_Traversal {
 
     public static void main(String[] args) {
 
